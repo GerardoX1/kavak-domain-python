@@ -16,7 +16,7 @@ class VehiclesModel(BaseModel):
     make: str
     model: str
     year: int
-    version_vehicle: Optional[int] = None
+    version_vehicle: Optional[str] = None
     bluetooth: Optional[bool] = None
     length: Optional[int] = None
     width: Optional[int] = None
